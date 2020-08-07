@@ -15,7 +15,20 @@
 
 <header>
 
-<?php echo "<h1>" . $page_title . "</h1>"?>
+<?php
+
+echo "<h1>" . $page_title . "</h1>"
+
+?>
+
+<nav>
+
+<a id="menu_item_1" class="navigation_menu" href="index.php">Home</a>
+<a id="menu_item_2" class="navigation_menu" href="exclusive.php">Exclusive</a>
+<a id="menu_item_3" class="navigation_menu" href="login.php">Login</a>
+<a id="menu_item_4" class="navigation_menu" href="logout.php">Logout</a>
+
+</nav>
 
 </header>
 
