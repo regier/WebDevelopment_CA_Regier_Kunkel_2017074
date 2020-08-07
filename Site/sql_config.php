@@ -4,6 +4,6 @@
 
 $sql_host = "127.0.0.1";
 $sql_user = "TheChosenOne";
-$sql_pswd = "SecurePassword":
+$sql_pswd = "SecurePassword";
 
 ?>
