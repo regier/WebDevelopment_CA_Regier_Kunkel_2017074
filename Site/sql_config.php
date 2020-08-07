@@ -13,7 +13,7 @@ $table_name = "users"; // Table where site's user credentials are stored.
 $db_connection = mysqli_connect($sql_host, $sql_user, $sql_pdwd, $db_name);
 
 // Checks if connection worked.
-if (!$db_connection) { die("DB Connection Failed ") . mysqli_connect_error());}
-$connection_status = "Connected"; // Writes "Connected" to variable status. TODO
+// if (!$db_connection) { die("DB Connection Failed ") . mysqli_connect_error());}
+// $connection_status = "Connected"; // Writes "Connected" to variable status. TODO
 
 ?>
