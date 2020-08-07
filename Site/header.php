@@ -4,12 +4,12 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Header.PHP file</title>
+<title><?php echo $page_title?></title>
 </head>
 
 <body>
 
 <header>
-<h1>The Cube</h1>
+<?php echo "<h1>" . $page_title . "</h1>"?>
 </header>
 
