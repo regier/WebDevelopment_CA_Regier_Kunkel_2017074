@@ -11,5 +11,3 @@ require 'header.php'; // Web site header and navigation menu.
 echo "Start. At least it's something.";
 
 require 'footer.php'; // Web site footer.
-
-?>
