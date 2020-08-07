@@ -1,5 +1,7 @@
 <footer>
-Copyleft - No Rights Reserved
+
+<?php echo "<h4>" . $rights . "<h4>"?>
+
 </footer>
 
 </body>
