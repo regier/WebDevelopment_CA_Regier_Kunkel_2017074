@@ -9,5 +9,5 @@ include 'sql_config.php'; // Database connection settings.
 require 'header.php'; // Web site header and navigation menu.
 
 echo "Start. At least it's something.";
-
+require 'content.php';
 require 'footer.php'; // Web site footer.
