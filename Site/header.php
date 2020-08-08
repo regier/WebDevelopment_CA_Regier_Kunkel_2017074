@@ -43,8 +43,6 @@ used by the web browser and search engines. -->
 // Page title
 echo '<h1 id="title">' . $page_title . '</h1>'
 ?>
-<!-- Page subtitle -->
-<h3>A fan page about the movie CUBE.</h3>
 
 <!-- Site's navigation menu -->
 <nav>
