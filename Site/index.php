@@ -5,7 +5,7 @@ $page_title = "The Cube"; // Shown big'n'bold at the very top. Used by header.ph
 $author = '"Regier Kunkel"';
 $rights = "Copyleft - No Rights Reserved."; // Copyright notice, bottom. footer.php
 
-include 'sql_config.php'; // Database connection settings.
+//include 'sql_config.php'; // Database connection settings.
 require 'header.php'; // Web site header and navigation menu.
 
 echo "Start. At least it's something.";

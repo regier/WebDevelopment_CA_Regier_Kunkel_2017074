@@ -1,18 +1,18 @@
 <?php
 
 // MySQL Host and Credential Details
-$sql_host = "127.0.0.1";
-$sql_user = "TheChosenOne";
-$sql_pswd = "SecurePassword";
+define('DB_SERVER', '127.0.0.1');
+define('DB_USERNAME', 'TheChosenOne');
+define('DB_PASSWORD', 'SecurePassword');
 
 // Database Details
-$db_name = "webdev"; // Database to be used.
-$table_name = "users"; // Table where site's user credentials are stored.
+define('DB_NAME', 'users'); // Database to be used.
+define('TABLE_NAME', 'users'); // Table where sites use'r credentials are stored.
 
 // Openning a connection to the database server.
-$db_connection = mysqli_connect($sql_host, $sql_user, $sql_pdwd, $db_name);
+$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Checks if connection worked.
-// if (!$db_connection) { die("DB Connection Failed ") . mysqli_connect_error());}
-// $connection_status = "Connected"; // Writes "Connected" to variable status. TODO
-
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
