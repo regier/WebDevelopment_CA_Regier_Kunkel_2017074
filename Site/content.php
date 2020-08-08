@@ -1,6 +1,10 @@
 <br>
+<!-- Please note all text was take from the following sites:
+https://www.empireonline.com/movies/reviews/cube-2-review/
+https://www.rottentomatoes.com/m/cube
+https://www.imdb.com/title/tt0123755/ -->
 <article>
-    (all text was take from the following sites:<br> https://www.empireonline.com/movies/reviews/cube-2-review/<br> https://www.rottentomatoes.com/m/cube<br> https://www.imdb.com/title/tt0123755/
+    
     <h2>A fan page about the movie CUBE.</h2>
     <section>
         <p>

@@ -7,7 +7,5 @@ $rights = "Copyleft - No Rights Reserved."; // Copyright notice, bottom. footer.
 
 //include 'sql_config.php'; // Database connection settings.
 require 'header.php'; // Web site header and navigation menu.
-
-echo "Start. At least it's something.";
-require 'content.php';
+require 'content.php'; // Main content goes here.
 require 'footer.php'; // Web site footer.

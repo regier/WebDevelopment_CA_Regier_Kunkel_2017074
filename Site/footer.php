@@ -2,7 +2,7 @@
 <footer>
 
 <!-- Copyright information on this web site -->
-<?php echo "<h4>" . $rights . "<h4>"?>
+<h4>Copyleft 2020 - No Rights Reserved</h4>
 
 </footer>
 

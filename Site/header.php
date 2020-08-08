@@ -23,11 +23,16 @@ used by the web browser and search engines. -->
 <!-- Finish Icons/Favicons -->
 
 <style type="text/css">
-    *{background-color:black;}
-    h1{color:white;font-size:5em;}#title{margin-top:0.2em;margin-bottom:0.05em;}
+    *{background-color:black;color:white;}
+    h1{font-size:5em;padding:0px;margin:0px;margin-top:0.1em;}
     .navigation_menu{margin-left:14px;color:red;background-color:darkred;text-align:center;min-width:128px;min-height:48px;line-height:48px;margin-bottom:2%;border-radius:20px;border:solid;display:inline-grid;text-decoration:none;}
-    header,footer{color: white;border-style:solid;border-color:red;border-radius:20px;text-align:center;padding-bottom:10px;}header{padding-top:0px;margin-top:2em;}
-    body{color: white;font-family: comfortaa;max-width:60%;min-width:256px;margin:auto;vertical-align:middle;}
+    header,footer{color: white;border-style:solid;border-color:red;border-radius:20px;text-align:center;padding-bottom:10px;}header{padding-top:0px;margin-top:1em;}
+    body{color: white;font-family: comfortaa;font-size:1.5em;max-width:60%;min-width:256px;margin:auto;vertical-align:middle;}
+    img{background-color:white}
+    article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block;}
+    input,textarea {margin:0;font:inherit;color: inherit;}
+
+
 </style>
 </head>
 
@@ -37,18 +42,13 @@ used by the web browser and search engines. -->
 <!-- Title and menu will live there -->
 <header>
 
-<?php
-// PHP code to dynamically display the page title as a nice big header at
-// the very top of the site.
-// Page title
-echo '<h1 id="title">' . $page_title . '</h1>'
-?>
+<h1>The Cube</h1>
 
 <!-- Site's navigation menu -->
 <nav>
 
 <a id="menu_item_1" class="navigation_menu" href="index.php">Home</a>
-<a id="menu_item_2" class="navigation_menu" href="exclusive.php">Exclusive</a>
+<a id="menu_item_2" class="navigation_menu" href="please_login.php">Exclusive</a>
 <a id="menu_item_3" class="navigation_menu" href="login.php">Login</a>
 <a id="menu_item_4" class="navigation_menu" href="logout.php">Logout</a>
 
